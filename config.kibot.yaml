@@ -2,8 +2,8 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: true
-  run_drc: true
+  erc: true
+  drc: true
 
 outputs:
   - name: '3D_Preview'
@@ -11,7 +11,6 @@ outputs:
     type: 'render_3d'
     dir: '.'
     options:
-      quality: 5
       width: 1280
       height: 720
       output: 'preview.png'
