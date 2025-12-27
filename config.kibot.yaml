@@ -7,16 +7,12 @@ preflight:
 
 outputs:
   - name: '3D_Preview'
-    comment: '3D Preview of the board'
-    type: 'render_3d'
+    comment: 'Board Preview (PcbDraw)'
+    type: 'pcbdraw'
     dir: '.'
     options:
-      width: 1280
-      height: 720
+      format: 'png'
       output: 'preview.png'
-      zoom: 1.2
-      rotate_x: 30
-      rotate_z: -30
 
   - name: 'Schematic_PDF'
     comment: 'Schematic in PDF format'
