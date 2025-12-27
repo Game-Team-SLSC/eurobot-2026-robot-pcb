@@ -1,0 +1,45 @@
+name: KiCad CI/CD
+
+on:
+  push:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '*.kicad_pro'
+      - 'config.kibot.yaml'
+      - '.github/workflows/main.yml'
+  pull_request:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '*.kicad_pro'
+      - 'config.kibot.yaml'
+      - '.github/workflows/main.yml'
+  workflow_dispatch:
+
+jobs:
+  kibot:
+    name: Generate Manufacturing Files
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run KiBot
+        uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          config: config.kibot.yaml
+          dir: out
+          schema: 'eurobot-2026-robot-pcb.kicad_sch'
+          board: 'eurobot-2026-robot-pcb.kicad_pcb'
+          # Enable 3D rendering support
+          install3D: true
+          # Cache 3D models to speed up subsequent runs
+          cache3D: true
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Manufacturing_Files
+          path: out

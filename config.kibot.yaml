@@ -1,0 +1,50 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: false
+  run_drc: false
+
+outputs:
+  - name: '3D_Preview'
+    comment: '3D Preview of the board'
+    type: 'render_3d'
+    dir: '.'
+    options:
+      quality: 5
+      width: 1280
+      height: 720
+      output: 'preview.png'
+      zoom: 1.2
+      rotate_x: 30
+      rotate_z: -30
+
+  - name: 'Schematic_PDF'
+    comment: 'Schematic in PDF format'
+    type: 'pdf_sch_print'
+    dir: 'doc'
+
+  - name: 'PCB_PDF'
+    comment: 'PCB in PDF format'
+    type: 'pdf_pcb_print'
+    dir: 'doc'
+    options:
+      output: '%f_pcb.pdf'
+
+  - name: 'Gerbers'
+    comment: 'Gerber files'
+    type: 'gerber'
+    dir: 'fab'
+    options:
+      # Use standard Protel extensions
+      use_protel_extensions: true
+      create_gerber_job_file: true
+      gerber_job_file: '%f.gbrjob'
+
+  - name: 'Drill'
+    comment: 'Drill files'
+    type: 'excellon'
+    dir: 'fab'
+    options:
+      metric_units: true
+      minimal_header: false
