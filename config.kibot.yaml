@@ -2,8 +2,8 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: false
-  run_drc: false
+  run_erc: true
+  run_drc: true
 
 outputs:
   - name: '3D_Preview'
@@ -48,3 +48,23 @@ outputs:
     options:
       metric_units: true
       minimal_header: false
+
+  - name: 'BOM'
+    comment: 'Bill of Materials'
+    type: 'bom'
+    dir: 'doc'
+    options:
+      format: 'CSV'
+      columns:
+        - 'Row'
+        - 'Value'
+        - 'Part'
+        - 'Footprint'
+        - 'Description'
+        - 'Vendor'
+      group_fields: ['Value', 'Footprint']
+      normalize_values: true
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
