@@ -612,6 +612,34 @@
     [
       "b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00",
       "Root"
+    ],
+    [
+      "215b72f6-c101-4e66-a991-f4c79d08804f",
+      "Power"
+    ],
+    [
+      "ca6b9722-0331-4c38-8eba-bffe0c9415dc",
+      "Logic"
+    ],
+    [
+      "1a8703d8-5ba0-4c53-bb87-3353758fd726",
+      "Arms"
+    ],
+    [
+      "3a2f43c3-eae5-4a01-9698-f25b81e1b4e2",
+      "Arm_EL"
+    ],
+    [
+      "ecae1800-3d15-4452-bf3f-5ec892bfc486",
+      "Arm_IL"
+    ],
+    [
+      "4d1f6e00-ac12-4eda-a1d8-095dc8decc7b",
+      "Arm_IR"
+    ],
+    [
+      "930b148b-2fd7-43b8-8277-e5d4eaf2b3b8",
+      "Arm_ER"
     ]
   ],
   "text_variables": {}
