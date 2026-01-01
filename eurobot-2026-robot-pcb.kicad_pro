@@ -595,7 +595,15 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -618,12 +626,12 @@
       "Power"
     ],
     [
-      "ca6b9722-0331-4c38-8eba-bffe0c9415dc",
-      "Logic"
+      "2d3eda0e-5f7a-4d55-b4aa-645fd47dc899",
+      "Motor_FL"
     ],
     [
       "1a8703d8-5ba0-4c53-bb87-3353758fd726",
-      "Arms"
+      "Logic"
     ],
     [
       "3a2f43c3-eae5-4a01-9698-f25b81e1b4e2",
@@ -640,6 +648,42 @@
     [
       "930b148b-2fd7-43b8-8277-e5d4eaf2b3b8",
       "Arm_ER"
+    ],
+    [
+      "643017f0-f26b-4b5a-a33b-fc1a99ef8d08",
+      "Motor_FR"
+    ],
+    [
+      "7031de1d-e161-4af6-b221-f84d5c8a02bd",
+      "Motor_BR"
+    ],
+    [
+      "683f7048-02be-4a56-bf88-b0b07ec401aa",
+      "Motor_BL"
+    ],
+    [
+      "739a7528-f503-4884-ae70-5fd9fb5b1416",
+      "PumpEL"
+    ],
+    [
+      "07dc9985-f8a4-4e74-9afd-56803ff9450b",
+      "PumpER"
+    ],
+    [
+      "6cfca4ca-b843-4a84-8660-ac103050ca5f",
+      "PumpIL"
+    ],
+    [
+      "6835aa78-57c8-4923-b924-dc99932d2399",
+      "PumpIR"
+    ],
+    [
+      "79cde46c-0510-47ab-a425-44099e6548ad",
+      "Grabber Servo"
+    ],
+    [
+      "8067320e-3a5b-49b8-9c23-cb84052c5a0d",
+      "Grabber Servo1"
     ]
   ],
   "text_variables": {}
