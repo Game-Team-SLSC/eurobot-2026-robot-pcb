@@ -2512,7 +2512,7 @@
 				)
 			)
 		)
-		(property "Value" "IRRZ44N"
+		(property "Value" "IRLZ44N"
 			(at 81.28 52.07 90)
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 				)
 			)
 		)
-		(property "Value" "IRRZ44N"
+		(property "Value" "IRLZ44N"
 			(at 125.73 53.34 90)
 			(effects
 				(font

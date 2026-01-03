@@ -36,7 +36,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Servos.kicad_sch"
+		(property "Sheetfile" "sheets/logic.kicad_sch"
 			(at 93.98 27.2546 0)
 			(effects
 				(font
@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "alim.kicad_sch"
+		(property "Sheetfile" "power.kicad_sch"
 			(at 13.97 19.6346 0)
 			(effects
 				(font
