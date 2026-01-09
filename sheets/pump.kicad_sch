@@ -211,6 +211,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -944,131 +1083,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1172,12 +1186,6 @@
 		)
 	)
 	(junction
-		(at 101.6 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01cd7dfb-d184-4a9e-b443-623c01e24955")
-	)
-	(junction
 		(at 100.33 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1188,6 +1196,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a9b3dac-aef0-4e44-ab84-2166b8c09369")
+	)
+	(junction
+		(at 101.6 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ebb3a5-da1b-460b-aeab-69e2b9676243")
 	)
 	(junction
 		(at 115.57 48.26)
@@ -1231,13 +1245,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 24.13) (xy 101.6 35.56)
+			(xy 101.6 31.75) (xy 101.6 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2895a597-4daf-4ec4-b8af-ec00a20e9b56")
+		(uuid "1da523c6-515c-4c59-b748-29b29946f0da")
 	)
 	(wire
 		(pts
@@ -1318,6 +1332,16 @@
 			(type default)
 		)
 		(uuid "6a0550e6-51f5-407d-89f8-047527dfa0fd")
+	)
+	(wire
+		(pts
+			(xy 101.6 19.05) (xy 101.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761e571b-4a4e-4fee-9c6e-f1398591b12c")
 	)
 	(wire
 		(pts
@@ -1431,6 +1455,17 @@
 		)
 		(uuid "15121dc9-c3e8-4479-8e77-bb7d454ed058")
 	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 101.6 19.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3eb0f7b-c456-42c3-bc1a-c2a713a944a3")
+	)
 	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 88.9 41.91 270)
@@ -1441,7 +1476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a8f9ce2-5796-43f2-9f3d-f0af5aa098b5")
-		(property "Reference" "D6"
+		(property "Reference" "D8"
 			(at 91.44 40.3224 90)
 			(effects
 				(font
@@ -1450,7 +1485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819"
+		(property "Value" "SS24"
 			(at 91.44 42.8624 90)
 			(effects
 				(font
@@ -1487,27 +1522,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "681b3ad5-78bf-4338-bbdf-f2af615c7244")
+			(uuid "7c7c6673-1a17-476c-b44c-b44ac66d67f5")
 		)
 		(pin "1"
-			(uuid "d5564c53-af23-474d-9c65-6951e4b32088")
+			(uuid "21baf23e-b1b6-4f01-b3fe-10fe6e8e5475")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "D8")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "D14")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
 					(reference "D12")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "D10")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
+					(reference "D8")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "D6")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -1523,22 +1558,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "167b56b5-ce89-41dc-820d-5aa75ee931ae")
-		(property "Reference" "D7"
-			(at 113.03 42.8626 90)
+		(property "Reference" "D9"
+			(at 118.11 40.3224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1N5819"
-			(at 113.03 40.3226 90)
+		(property "Value" "SS24"
+			(at 118.11 42.8624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -1569,27 +1604,107 @@
 			)
 		)
 		(pin "2"
-			(uuid "f94fbc1e-4fe1-469c-817c-56fb15a28a10")
+			(uuid "563a82bf-335a-428b-bbce-d6b7a31fd52b")
 		)
 		(pin "1"
-			(uuid "de1bcfe5-2fb7-4b57-8a8b-5e21d992c966")
+			(uuid "930f38df-42bf-4d89-9cb3-bea658cc1d31")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "D9")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "D15")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
 					(reference "D13")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
 					(reference "D11")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "172669e0-d0ac-4fff-93c0-2553e391a121")
+		(property "Reference" "C74"
+			(at 97.79 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 97.79 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 30.7848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d1501f9-b66b-4ef0-b1c9-9493d54db417")
+		)
+		(pin "1"
+			(uuid "7d2d8729-11fe-4c50-b477-2e259fdb22d7")
+		)
+		(instances
+			(project "eurobot-2026-robot-pcb"
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "C80")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "C78")
+					(unit 1)
+				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "D7")
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -1605,7 +1720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2184146b-fcb2-4f0c-bf2a-98945d0b00d2")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0152"
 			(at 111.76 76.2 0)
 			(effects
 				(font
@@ -1651,24 +1766,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "43f0649a-de78-4362-8201-4c811ef494f8")
+			(uuid "dadf8a39-f1de-476a-8062-bda2103c4406")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "#PWR0146")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "#PWR0170")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "#PWR0158")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "#PWR0152")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "#PWR0164")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "#PWR0140")
+					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -1727,33 +1842,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0ab4493-92bc-4228-b420-645d10d26f28")
+			(uuid "d59e3cba-da56-4cb3-b788-0f62aa53fbe7")
 		)
 		(pin "4"
-			(uuid "510cb604-8170-4d3e-aa69-3a71b4948081")
+			(uuid "4167e4f2-19cb-430e-b28e-bdd3dbae6482")
 		)
 		(pin "2"
-			(uuid "8a5cbc2b-5c9b-4513-bd15-77dd9b00e968")
+			(uuid "20dbbc80-6f24-4a87-a73a-c11069291c22")
 		)
 		(pin "3"
-			(uuid "6deab17b-8177-4c6a-b918-72d3136786cb")
+			(uuid "ef94ec8d-6877-4296-9851-2a4327d0dd1e")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "J16")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
 					(reference "J18")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
 					(reference "J17")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
 					(reference "J15")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -1769,7 +1884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ffaf6ec-087b-430c-afc0-c23d731f3b18")
-		(property "Reference" "R42"
+		(property "Reference" "R47"
 			(at 121.92 82.55 90)
 			(effects
 				(font
@@ -1813,27 +1928,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "501b6078-f7c8-49c4-92c4-2972d4295d31")
+			(uuid "8e976c89-89bf-43da-a28e-c24f695b36bc")
 		)
 		(pin "2"
-			(uuid "8f658be9-92ad-421e-855f-606c4358d515")
+			(uuid "386069e1-583a-4989-9713-2fe448055ef4")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "R46")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "R59")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "R54")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "R50")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "R42")
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -1849,7 +1964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39df79fd-3ee7-4055-84c3-50c22c485126")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0150"
 			(at 137.16 59.69 0)
 			(effects
 				(font
@@ -1895,24 +2010,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e437673-1718-4e37-9750-6bdaa94d5949")
+			(uuid "1440c89d-9339-4743-beee-0739c69128dc")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "#PWR0147")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "#PWR0168")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "#PWR0159")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "#PWR0153")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "#PWR0162")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "#PWR0141")
+					(reference "#PWR0150")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -1927,7 +2042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51df4323-73e1-4379-9579-0db4814880cb")
-		(property "Reference" "R41"
+		(property "Reference" "R44"
 			(at 87.63 70.612 0)
 			(effects
 				(font
@@ -1973,27 +2088,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "0ba14161-19ac-4ac0-8995-8c0ee85cac61")
+			(uuid "d6127c1d-d08d-4dc1-bcae-623d43bafd86")
 		)
 		(pin "1"
-			(uuid "0af62792-f8ef-42ab-91c5-2f7000ee5ea1")
+			(uuid "0d3e822d-5df6-40de-bf1a-8a93d1d2d5f6")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "R45")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "R56")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "R53")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "R49")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "R41")
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2009,7 +2124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "572759cd-8e6a-44b4-bbf2-2b811ea4f6bb")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0151"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -2055,24 +2170,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "915db1a0-2901-4746-9eb3-9e7c4f8eef1e")
+			(uuid "0f29c52e-88a0-4714-be17-69e1f6cbb3b6")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "#PWR0142")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "#PWR0169")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "#PWR0148")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "#PWR0136")
+					(reference "#PWR0151")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -2088,7 +2203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ad9c41a-6b71-449c-b7a4-b24231676673")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0149"
 			(at 92.71 58.42 0)
 			(effects
 				(font
@@ -2134,24 +2249,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "291cd50b-a698-444a-a00a-1952ef316c04")
+			(uuid "13f4f050-9352-407a-a2b5-cb056b25bc55")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "#PWR0143")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "#PWR0167")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "#PWR0155")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "#PWR0149")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "#PWR0137")
+					(reference "#PWR0149")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -2167,7 +2282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97fea219-ffa3-462c-98e4-536a34ae5698")
-		(property "Reference" "R43"
+		(property "Reference" "R45"
 			(at 123.19 72.3901 0)
 			(effects
 				(font
@@ -2213,44 +2328,44 @@
 			)
 		)
 		(pin "2"
-			(uuid "58155894-ae2d-4e75-9ae8-4fd4c5f187f6")
+			(uuid "c06f65d5-909e-416e-bfcc-9610a3aec73d")
 		)
 		(pin "1"
-			(uuid "5714adeb-205c-41fe-9724-ad1e15d5e658")
+			(uuid "7c6cde19-e6eb-4f91-b6ba-44724e2c08fd")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "R47")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "R57")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "R55")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "R51")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "R43")
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "R49")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 101.6 24.13 0)
+		(lib_id "power:GND")
+		(at 93.98 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ccdc50e-6c9d-4b82-98cc-5daa471791da")
-		(property "Reference" "#PWR0139"
-			(at 101.6 27.94 0)
+		(uuid "993b314c-7fce-4cdf-a275-23fbc527c1ec")
+		(property "Reference" "#PWR0148"
+			(at 87.63 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,16 +2373,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 101.6 19.05 0)
+		(property "Value" "GND"
+			(at 90.17 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 24.13 0)
+			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 24.13 0)
+			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,8 +2400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 101.6 24.13 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,24 +2410,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e96a98e-7a77-4805-b9c1-f9df962bb629")
+			(uuid "7169800c-dd64-4594-8682-5bf7d6ee018b")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "#PWR0145")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "#PWR0166")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "#PWR0157")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "#PWR0151")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "#PWR0139")
+					(reference "#PWR0148")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -2319,31 +2435,31 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 97.79 24.13 270)
+		(at 97.79 19.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c174cf26-7bd6-4835-b703-c80e7691442f")
-		(property "Reference" "C69"
-			(at 107.442 23.114 90)
+		(property "Reference" "C73"
+			(at 107.442 18.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470u_LowZ"
-			(at 107.442 25.654 90)
+		(property "Value" "47u_LowZ"
+			(at 107.442 20.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 93.98 25.0952 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 93.98 20.0152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 24.13 0)
+			(at 97.79 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2477,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 97.79 24.13 0)
+			(at 97.79 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,8 +2485,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EEU-FR1E471L"
-			(at 97.79 24.13 0)
+		(property "MPN" "EEUFR1E470"
+			(at 97.79 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2495,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 97.79 24.13 0)
+			(at 97.79 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,27 +2504,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "c90290a8-d186-4d4f-a970-b576591e8771")
+			(uuid "9398cb39-f44b-4bc9-9cf8-256635113210")
 		)
 		(pin "1"
-			(uuid "6f4eff3c-6640-4ad9-b5f0-e59748e72d3e")
+			(uuid "16feea0b-81f4-4211-bc34-2b9480804921")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "C70")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "C79")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "C72")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "C71")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "C77")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "C69")
+					(reference "C73")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -2424,7 +2540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c590bba2-7979-4feb-8e1c-a0ff014eee65")
-		(property "Reference" "R40"
+		(property "Reference" "R46"
 			(at 77.47 68.58 90)
 			(effects
 				(font
@@ -2468,27 +2584,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4719d74-6d02-4e9a-aaf1-74043d47c66f")
+			(uuid "af6a0584-2d2d-4b4e-b3d6-7b43c79df319")
 		)
 		(pin "2"
-			(uuid "73b2c2f4-ffde-45f8-95a6-f0721c956689")
+			(uuid "df69a30e-e09a-438c-8415-f23e053f742a")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "R44")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "R58")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "R48")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "R40")
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -2504,7 +2620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9eac88d-d5c9-41a3-8507-276236d8ede3")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 81.28 54.61 90)
 			(effects
 				(font
@@ -2551,30 +2667,30 @@
 			)
 		)
 		(pin "3"
-			(uuid "6584d552-e719-4c13-809e-554aa7fe27d7")
+			(uuid "64240428-1634-4fd5-81e4-424b0a146ecc")
 		)
 		(pin "1"
-			(uuid "17460068-4de3-4d7b-882c-a86a7e054244")
+			(uuid "950a1ff5-8bbb-46b3-a5bb-6b5f0e81627e")
 		)
 		(pin "2"
-			(uuid "00ced3cb-7299-4f1c-9ce3-6d50bb8cc2f6")
+			(uuid "40f2947c-cbd9-46f9-aa4e-b3dd90867e06")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "Q4")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "Q9")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "Q8")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "Q6")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "Q7")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "Q2")
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee9eab90-7d24-4c4d-b502-d51ab370ec30")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 125.73 55.88 90)
 			(effects
 				(font
@@ -2637,30 +2753,30 @@
 			)
 		)
 		(pin "3"
-			(uuid "4f2f7f74-cff6-4f77-b94a-39a85915d3eb")
+			(uuid "1ba30792-3fc0-45d7-9340-0e67f6f1936e")
 		)
 		(pin "1"
-			(uuid "e138d1ac-0755-4a07-84de-41dbe47f94a0")
+			(uuid "9d11ef5d-09a9-4b52-8398-349376545e6d")
 		)
 		(pin "2"
-			(uuid "82dc06b1-06b4-4e58-b735-7bc10a02e8e4")
+			(uuid "96663e6c-1611-43d6-b3cb-789ba591f15a")
 		)
 		(instances
 			(project "eurobot-2026-robot-pcb"
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "Q5")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "Q10")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "Q9")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "Q7")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "Q3")
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2668,7 +2784,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 24.13 270)
+		(at 93.98 19.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2676,8 +2792,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3ff4eee-4280-41dc-82f6-9c0f914bc368")
-		(property "Reference" "#PWR0138"
-			(at 87.63 24.13 0)
+		(property "Reference" "#PWR0147"
+			(at 87.63 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2802,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 24.1299 90)
+			(at 90.17 19.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 24.13 0)
+			(at 93.98 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 24.13 0)
+			(at 93.98 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 24.13 0)
+			(at 93.98 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,24 +2838,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "598752ac-1f89-406a-903e-037a6921d72e")
+			(uuid "7b6f0992-87f9-4586-be62-ce6a7172db45")
 		)
 		(instances
-			(project ""
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/07dc9985-f8a4-4e74-9afd-56803ff9450b"
-					(reference "#PWR0144")
+			(project "eurobot-2026-robot-pcb"
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/2cd737a7-41f2-4d7a-8221-d5f52cf53ad2"
+					(reference "#PWR0165")
 					(unit 1)
 				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6835aa78-57c8-4923-b924-dc99932d2399"
-					(reference "#PWR0156")
-					(unit 1)
-				)
-				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/6cfca4ca-b843-4a84-8660-ac103050ca5f"
-					(reference "#PWR0150")
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/5e9714ec-fab7-4fc2-b1d5-e7fb87eb869c"
+					(reference "#PWR0159")
 					(unit 1)
 				)
 				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/739a7528-f503-4884-ae70-5fd9fb5b1416"
-					(reference "#PWR0138")
+					(reference "#PWR0147")
+					(unit 1)
+				)
+				(path "/b7a41ac4-1d1a-4287-8cea-fdfe5ab5ee00/1a8703d8-5ba0-4c53-bb87-3353758fd726/75ab7ab1-9b09-44e8-8229-6a353da3c862"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
